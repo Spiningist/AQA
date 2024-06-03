@@ -40,6 +40,7 @@ def test_product_insert():
 
     assert water_qnt[0][0] == 30
 
+
 @pytest.mark.database
 def test_product_delete():
     db = Database()
@@ -62,4 +63,4 @@ def test_detailed_orders():
     assert orders [0][1] == 'Sergii'
     assert orders [0][2] == 'солодка вода'
     assert orders [0][3] == 'з цукром'
-    
+
